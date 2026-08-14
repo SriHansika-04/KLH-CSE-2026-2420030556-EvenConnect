@@ -1,4 +1,3 @@
-> Jaan Singh Roy:
 # KLH-CSE-2026-2420030173-EvenConnect
 EventConnect - Plan. Manage. Connect.
 
