@@ -1,5 +1,6 @@
-# KLH-CSE-2026-2420030556-EvenConnect
-# EventConnect – Smart Event Management and Registration System
+> Jaan Singh Roy:
+# KLH-CSE-2026-2420030173-EvenConnect
+EventConnect - Plan. Manage. Connect.
 
 ## Team Members
 
@@ -10,11 +11,17 @@
 | 3      | 2420030556    | Sri Hansika Saraf           |
 | 4      | 2420030558    | Bobbadhi Kundana Mani       |
 
-**Supervisor:** Ms. G. Lavanya
-**Course:** Adaptive Software Engineering – 24CI3201
-**Team:** Group 10
+## Supervisor
 
----
+Ms. G. Lavanya
+
+## Course
+
+Adaptive Software Engineering – 24CI3201
+
+## Team
+
+Group 10
 
 ## Abstract
 
@@ -27,8 +34,6 @@ The platform allows users to register and securely log in, manage their profiles
 The project follows Agile Software Engineering principles with an iterative, Sprint-based development approach. Requirements are organized using user stories and a product backlog. The system is developed incrementally, with continuous testing, Sprint reviews, retrospectives, and regular feedback.
 
 The project demonstrates the practical application of Object-Oriented Programming, Java programming, database concepts, UML modelling, user stories, Agile process models, software testing, and team-based software development.
-
----
 
 ## Key Features
 
@@ -48,8 +53,6 @@ The project demonstrates the practical application of Object-Oriented Programmin
 * Attendee reports
 * Revenue reports
 * Refund management
-
----
 
 ## Technologies Used
 
@@ -80,11 +83,9 @@ The project demonstrates the practical application of Object-Oriented Programmin
 * UML Modelling
 * Software Testing
 
----
+## System Users
 
-# System Users
-
-## User
+### User
 
 Users can:
 
@@ -103,7 +104,7 @@ Users can:
 * Receive booking confirmation
 * View booked events
 
-## Organizer
+### Organizer
 
 Organizers can:
 
@@ -114,7 +115,7 @@ Organizers can:
 * Generate attendee reports
 * Generate revenue reports
 
-## Administrator
+### Administrator
 
 Administrators can:
 
@@ -123,11 +124,9 @@ Administrators can:
 * Manage refunds
 * Handle administrative operations
 
----
+## Main Modules
 
-# Main Modules
-
-## 1. User Management
+### 1. User Management
 
 * User Registration
 * User Login
@@ -135,7 +134,7 @@ Administrators can:
 * Password Management
 * View Booked Events
 
-## 2. Event Management
+### 2. Event Management
 
 * Create Event
 * Update Event
@@ -143,7 +142,7 @@ Administrators can:
 * Search Events
 * View Event Details
 
-## 3. Ticket Booking
+### 3. Ticket Booking
 
 * Book Ticket
 * Cancel Booking
@@ -151,7 +150,7 @@ Administrators can:
 * Download Ticket
 * Booking Confirmation
 
-## 4. Payments and Reports
+### 4. Payments and Reports
 
 * Make Payment
 * View Payment History
@@ -159,29 +158,28 @@ Administrators can:
 * Generate Revenue Reports
 * Manage Refunds
 
----
+## Development Methodology
 
-# Development Methodology
+The EventConnect project follows an Agile Process Model using an iterative and Sprint-based development approach.
 
-The EventConnect project follows an **Agile Process Model** using an iterative and Sprint-based development approach.
-
-## Agile Development Cycle
+### Agile Development Cycle
 
 ```text
 Product Backlog
-       ↓
+      ↓
 Sprint Planning
-       ↓
+      ↓
 Development
-       ↓
+      ↓
 Testing
-       ↓
+      ↓
 Sprint Review
-       ↓
+      ↓
 Retrospective
-       ↓
+
+> Jaan Singh Roy:
+↓
 Next Sprint
-```
 
 Agile development is used to support:
 
@@ -192,13 +190,11 @@ Agile development is used to support:
 * Better team collaboration
 * Continuous improvement after each Sprint
 
----
+## Sprint Planning
 
-# Sprint Planning
+### Sprint 1 – User Management
 
-## Sprint 1 – User Management
-
-### Features:
+Features:
 
 * User Registration
 * User Login
@@ -206,9 +202,9 @@ Agile development is used to support:
 * Reset Password
 * View Booked Events
 
-## Sprint 2 – Event Management
+### Sprint 2 – Event Management
 
-### Features:
+Features:
 
 * Create Event
 * Update Event
@@ -216,9 +212,9 @@ Agile development is used to support:
 * Search Event
 * View Event Details
 
-## Sprint 3 – Ticket Booking
+### Sprint 3 – Ticket Booking
 
-### Features:
+Features:
 
 * Book Ticket
 * Cancel Booking
@@ -226,9 +222,9 @@ Agile development is used to support:
 * Download Ticket
 * Receive Booking Confirmation
 
-## Sprint 4 – Payments and Reports
+### Sprint 4 – Payments and Reports
 
-### Features:
+Features:
 
 * Make Payment
 * View Payment History
@@ -236,47 +232,43 @@ Agile development is used to support:
 * Generate Revenue Report
 * Manage Refunds
 
----
+## User Stories
 
-# User Stories
+The project requirements are organized into four major epics:
 
-The project requirements are organized into four major epics.
+### Epic 1 – User Management
 
-## Epic 1 – User Management
+* US01 – User Registration
+* US02 – User Login
+* US03 – Update Profile
+* US04 – Reset Password
+* US05 – View Booked Events
 
-* **US01** – User Registration
-* **US02** – User Login
-* **US03** – Update Profile
-* **US04** – Reset Password
-* **US05** – View Booked Events
+### Epic 2 – Event Management
 
-## Epic 2 – Event Management
+* US06 – Create Event
+* US07 – Update Event
+* US08 – Delete Event
+* US09 – Search Event
+* US10 – View Event Details
 
-* **US06** – Create Event
-* **US07** – Update Event
-* **US08** – Delete Event
-* **US09** – Search Event
-* **US10** – View Event Details
+### Epic 3 – Ticket Booking
 
-## Epic 3 – Ticket Booking
+* US11 – Book Ticket
+* US12 – Cancel Booking
+* US13 – View Booking History
+* US14 – Download Ticket
+* US15 – Receive Booking Confirmation
 
-* **US11** – Book Ticket
-* **US12** – Cancel Booking
-* **US13** – View Booking History
-* **US14** – Download Ticket
-* **US15** – Receive Booking Confirmation
+### Epic 4 – Payments and Reports
 
-## Epic 4 – Payments and Reports
+* US16 – Make Payment
+* US17 – View Payment History
+* US18 – Generate Attendee Report
+* US19 – Generate Revenue Report
+* US20 – Manage Refunds
 
-* **US16** – Make Payment
-* **US17** – View Payment History
-* **US18** – Generate Attendee Report
-* **US19** – Generate Revenue Report
-* **US20** – Manage Refunds
-
----
-
-# UML and System Design
+## UML and System Design
 
 The system design identifies three major actors:
 
@@ -286,48 +278,43 @@ The system design identifies three major actors:
 
 The UML use cases are organized around:
 
-* User Management
-* Event Management
-* Ticket Booking
-* Payments and Reports
+1. User Management
+2. Event Management
+3. Ticket Booking
+4. Payments and Reports
 
-## Important System Relationships
+Important system relationships include:
 
 * Book Ticket → Make Payment
 * Book Ticket → Receive Booking Confirmation
 * Cancel Booking → Manage Refunds
 
----
-
-# Project Development Approach
+## Project Development Approach
 
 The project is developed incrementally. Each module is designed, implemented, and tested before being integrated with the other modules.
 
-## Overall Development Flow
+The overall development flow is:
 
 ```text
 Requirements
-      ↓
+     ↓
 User Stories
-      ↓
+     ↓
 UML Design
-      ↓
+     ↓
 Sprint Planning
-      ↓
+     ↓
 Java Implementation
-      ↓
+     ↓
 Testing
-      ↓
+     ↓
 Integration
-      ↓
+     ↓
 Final System
-```
 
----
+## Setup Instructions
 
-# Setup Instructions
-
-## Prerequisites
+### Prerequisites
 
 Make sure the following software is installed:
 
@@ -337,28 +324,20 @@ Make sure the following software is installed:
 * Git
 * A Java development environment / IDE
 
----
+### Clone the Repository
 
-## Clone the Repository
-
-```bash
 git clone <repository-url>
 cd <repository-folder>
-```
 
----
-
-## Database Setup
+### Database Setup
 
 1. Install and configure MySQL.
 2. Create the database required by EventConnect.
 3. Configure the database connection details for the Java application.
 4. Configure JDBC connectivity.
-5. Add the required source files under the `src/` directory.
+5. Add the required source files under the src/ directory.
 
----
-
-## Run the Project
+### Run the Project
 
 1. Open the project in a Java development environment.
 2. Configure the MySQL database connection.
@@ -366,25 +345,20 @@ cd <repository-folder>
 4. Compile the Java source code.
 5. Run the application.
 
-Detailed database configuration and execution commands will be updated as implementation progresses.
+> Detailed database configuration and execution commands will be updated as implementation progresses.
 
----
+## Repository Structure
 
-# Repository Structure
-
-```text
 EventConnect/
 │
 ├── src/
 │   └── Source code
 │
 ├── docs/
-│   └── Project documentation,
-│       UML diagrams and requirements
+│   └── Project documentation, UML diagrams and requirements
 │
 ├── data/
-│   └── Project data or documented
-│       data-source references
+│   └── Project data or documented data-source references
 │
 ├── results/
 │   └── Development and testing results
@@ -393,15 +367,12 @@ EventConnect/
 │   └── Project reports and analysis
 │
 └── README.md
-```
 
----
+## Current Phase Status
 
-# Current Phase Status
+Current Phase: Review 1 – Requirements and System Design
 
-**Current Phase: Review 1 – Requirements and System Design Completed**
-
-Completed:
+### Completed
 
 * Project identification
 * Project overview
@@ -417,9 +388,7 @@ Completed:
 * Technology identification
 * Project documentation
 
----
-
-# Next Phase
+### Next Phase
 
 * Module implementation
 * Java development
@@ -427,11 +396,12 @@ Completed:
 * Testing
 * Module integration
 
----
+## Expected Outcome
 
-# Expected Outcome
+The expected outcome of EventConnect is a functional event
 
-The expected outcome of EventConnect is a functional event management and registration system that allows users to discover and book events, organizers to manage their events and reports, and administrators to handle payment-related administrative tasks.
+> Jaan Singh Roy:
+management and registration system that allows users to discover and book events, organizers to manage their events and reports, and administrators to handle payment-related administrative tasks.
 
 The project aims to demonstrate the practical application of:
 
@@ -444,12 +414,12 @@ The project aims to demonstrate the practical application of:
 * Software Testing
 * Team-Based Software Development
 
----
+## Academic Project
 
-# Academic Project
+**EventConnect - Plan. Manage. Connect.**
 
-**EventConnect – Smart Event Management and Registration System**
+Adaptive Software Engineering – 24CI3201
 
-**Course:** Adaptive Software Engineering – 24CI3201
-**Team:** Group 10
-**Supervisor:** Ms. G. Lavanya
+Group 10
+
+Supervisor: Ms. G. Lavanya
