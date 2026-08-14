@@ -176,7 +176,7 @@ Sprint Review
       ↓
 Retrospective
 
-> Jaan Singh Roy:
+
 ↓
 Next Sprint
 
@@ -398,8 +398,6 @@ Current Phase: Review 1 – Requirements and System Design
 ## Expected Outcome
 
 The expected outcome of EventConnect is a functional event
-
-> Jaan Singh Roy:
 management and registration system that allows users to discover and book events, organizers to manage their events and reports, and administrators to handle payment-related administrative tasks.
 
 The project aims to demonstrate the practical application of:
