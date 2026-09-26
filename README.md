@@ -1,5 +1,9 @@
 # KLH-CSE-2026-2420030173-EvenConnect
+HEAD
 **EventConnect - Plan. Manage. Connect.**
+=======
+EventConnect - Plan. Manage. Connect.
+>>>>>>> origin/main
 
 ## Team Members
 
@@ -12,6 +16,7 @@
 
 ## Supervisor
 
+<<<<<<< HEAD
 **Ms. G. Lavanya**
 
 ## Course
@@ -21,6 +26,17 @@
 ## Team
 
 **Group 10**
+=======
+Ms. G. Lavanya
+
+## Course
+
+Adaptive Software Engineering – 24CI3201
+
+## Team
+
+Group 10
+>>>>>>> origin/main
 
 ## Abstract
 
@@ -159,7 +175,11 @@ Administrators can:
 
 ## Development Methodology
 
+<<<<<<< HEAD
 The EventConnect project follows an **Agile Process Model** using an iterative and Sprint-based development approach.
+=======
+The EventConnect project follows an Agile Process Model using an iterative and Sprint-based development approach.
+>>>>>>> origin/main
 
 ### Agile Development Cycle
 
@@ -175,9 +195,16 @@ Testing
 Sprint Review
       ↓
 Retrospective
+<<<<<<< HEAD
       ↓
 Next Sprint
 ```
+=======
+
+
+↓
+Next Sprint
+>>>>>>> origin/main
 
 Agile development is used to support:
 
@@ -309,7 +336,10 @@ Testing
 Integration
      ↓
 Final System
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> origin/main
 
 ## Setup Instructions
 
@@ -325,10 +355,15 @@ Make sure the following software is installed:
 
 ### Clone the Repository
 
+<<<<<<< HEAD
 ```bash
 git clone <repository-url>
 cd <repository-folder>
 ```
+=======
+git clone <repository-url>
+cd <repository-folder>
+>>>>>>> origin/main
 
 ### Database Setup
 
@@ -336,7 +371,11 @@ cd <repository-folder>
 2. Create the database required by EventConnect.
 3. Configure the database connection details for the Java application.
 4. Configure JDBC connectivity.
+<<<<<<< HEAD
 5. Add the required source files under the `src/` directory.
+=======
+5. Add the required source files under the src/ directory.
+>>>>>>> origin/main
 
 ### Run the Project
 
@@ -350,7 +389,10 @@ cd <repository-folder>
 
 ## Repository Structure
 
+<<<<<<< HEAD
 ```text
+=======
+>>>>>>> origin/main
 EventConnect/
 │
 ├── src/
@@ -369,11 +411,18 @@ EventConnect/
 │   └── Project reports and analysis
 │
 └── README.md
+<<<<<<< HEAD
 ```
 
 ## Current Phase Status
 
 **Current Phase: Review 1 – Requirements and System Design**
+=======
+
+## Current Phase Status
+
+Current Phase: Review 1 – Requirements and System Design
+>>>>>>> origin/main
 
 ### Completed
 
@@ -401,7 +450,12 @@ EventConnect/
 
 ## Expected Outcome
 
+<<<<<<< HEAD
 The expected outcome of EventConnect is a functional event management and registration system that allows users to discover and book events, organizers to manage their events and reports, and administrators to handle payment-related administrative tasks.
+=======
+The expected outcome of EventConnect is a functional event
+management and registration system that allows users to discover and book events, organizers to manage their events and reports, and administrators to handle payment-related administrative tasks.
+>>>>>>> origin/main
 
 The project aims to demonstrate the practical application of:
 
@@ -416,6 +470,7 @@ The project aims to demonstrate the practical application of:
 
 ## Academic Project
 
+<<<<<<< HEAD
 ****EventConnect - Plan. Manage. Connect.****
 
 **Adaptive Software Engineering – 24CI3201**
@@ -423,3 +478,12 @@ The project aims to demonstrate the practical application of:
 **Group 10**
 
 **Supervisor:** Ms. G. Lavanya
+=======
+**EventConnect - Plan. Manage. Connect.**
+
+Adaptive Software Engineering – 24CI3201
+
+Group 10
+
+Supervisor: Ms. G. Lavanya
+>>>>>>> origin/main
