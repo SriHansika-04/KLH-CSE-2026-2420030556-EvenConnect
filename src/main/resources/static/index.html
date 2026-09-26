@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EventConnect - Event Management</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>EventConnect</h1>
+        <p>Discover and manage events</p>
+    </header>
+
+    <main>
+
+        <!-- Search -->
+        <section class="search-section">
+            <h2>Find Events</h2>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search by event name, venue or description">
+
+            <button onclick="searchEvents()">Search</button>
+            <button onclick="loadEvents()">Show All</button>
+        </section>
+
+        <!-- Events -->
+        <section>
+            <h2>Available Events</h2>
+
+            <div id="eventList"></div>
+        </section>
+
+        <!-- Create Event -->
+        <section class="form-section">
+
+            <h2>Create Event</h2>
+
+            <form id="eventForm">
+
+                <input
+                    type="text"
+                    id="eventName"
+                    placeholder="Event Name"
+                    required>
+
+                <input
+                    type="text"
+                    id="dateTime"
+                    placeholder="Date and Time"
+                    required>
+
+                <input
+                    type="text"
+                    id="venue"
+                    placeholder="Venue"
+                    required>
+
+                <textarea
+                    id="description"
+                    placeholder="Description"
+                    required></textarea>
+
+                <input
+                    type="text"
+                    id="ticketInformation"
+                    placeholder="Ticket Information"
+                    required>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        id="published">
+                    Publish Event
+                </label>
+
+                <button type="submit">Create Event</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
